@@ -29,7 +29,9 @@ java -jar app/target/ai-rag-knowledge-app.jar
 
 ## Configuration
 
-Place application configuration in `app/src/main/resources`. Keep API keys and other secrets outside the repository and provide them through environment variables.
+Before running, copy `app/src/main/resources/application-dev-example.yml` to `app/src/main/resources/application-dev.yml` and update the Ollama and Redis connection settings for your environment.
+
+The local `application-dev.yml` file is excluded from Git. Keep real server addresses, passwords, and API keys out of the example configuration.
 
 ## Status
 
